@@ -45,7 +45,6 @@
   
 
 // 3. Import Tailwind CSS: Apni CSS file mein Tailwind ke directives ko import karna hota hai:
-
 // @tailwind base;
 // @tailwind components;
 // @tailwind utilities;
