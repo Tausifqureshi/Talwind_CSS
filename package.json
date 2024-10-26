@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build:css": "npx tailwindcss -i ./index.css -o ./output.css --watch",
+    "dev": "concurrently \"npm start\" \"npm run build:css\""
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^3.4.14",
+    "concurrently": "^8.0.1"
   },
   "dependencies": {
     "vite": "^5.4.9"
