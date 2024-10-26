@@ -570,8 +570,16 @@ video {
   display: block;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .contents {
@@ -596,6 +604,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .p-9 {
@@ -638,5 +651,12 @@ video {
 
 .outline {
   outline-style: solid;
+}
+
+@media (min-width: 768px) {
+  .md\:bg-red-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  }
 }
 
