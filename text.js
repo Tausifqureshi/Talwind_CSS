@@ -61,3 +61,11 @@
 
 
 
+
+
+
+
+
+const app = document.getElementById("app");
+app.innerHTML = `<div class="text-yellow-500  text-xl place-content-center hover:text-pink-500">Talwind-CSS</div>`
+console.log("hello",app.innerHTML);
